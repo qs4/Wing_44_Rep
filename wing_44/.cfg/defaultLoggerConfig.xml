@@ -1,0 +1,9 @@
+<LoggerConfig>
+	<GLOBAL>
+		<MATCH_ALL />
+	</GLOBAL>
+	<OUTPUT_STREAM id="User"
+		pattern="%highlight{§%date{HH:mm:ss,SSS} - %-5level - [%c{2}]: %msg}{INFO=black}%n%ex" streamId="de.iils.dc43">
+		<TYPED_MARKER id="USER" type="CHANNEL" />
+	</OUTPUT_STREAM>
+</LoggerConfig>

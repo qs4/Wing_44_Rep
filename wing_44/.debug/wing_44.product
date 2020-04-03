@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="wing_44" uid="wing_44" application="de.iils.dc43.core.standalone.dc43ConsoleApplication" useFeatures="false" includeLaunchers="true">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-consoleLog --debug=C:\Users\Meert\Desktop\DesignCockpit43-3.0.0.201911160331-win32.win32.x86_64\DesignCockpit43\workspace104\Wing_44_ll3_VV.zip_expanded\wing_44 --dc43Language=wing_44
+      </programArgs>
+   </launcherArgs>
+
+   <launcher name="wing_44">
+      <linux icon="C:\Users\Meert\Desktop\DesignCockpit43-3.0.0.201911160331-win32.win32.x86_64\DesignCockpit43\workspace104\dc43.xpm"/>
+      <win useIco="true">
+         <ico path="C:\Users\Meert\Desktop\DesignCockpit43-3.0.0.201911160331-win32.win32.x86_64\DesignCockpit43\workspace104\dc43.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+   <plugins>
+      <plugin id="com.google.guava"/>
+      <plugin id="com.google.inject"/>
+      <plugin id="com.ibm.icu"/>
+      <plugin id="com.jcraft.jsch"/>
+      <plugin id="com.jcraft.jzlib"/>
+      <plugin id="de.iils.dc43.catia"/>
+      <plugin id="de.iils.dc43.catia.win32.win32.x86_64" fragment="true"/>
+      <plugin id="de.iils.dc43.core"/>
+      <plugin id="de.iils.dc43.core.activation"/>
+      <plugin id="de.iils.dc43.core.cypher"/>
+      <plugin id="de.iils.dc43.core.dependencies"/>
+      <plugin id="de.iils.dc43.core.evaluation"/>
+      <plugin id="de.iils.dc43.core.evaluation.cas.reduce"/>
+      <plugin id="de.iils.dc43.core.evaluation.notation"/>
+      <plugin id="de.iils.dc43.core.geometry.legacy"/>
+      <plugin id="de.iils.dc43.core.geometry.legacy.win32.win32.x86_64" fragment="true"/>
+      <plugin id="de.iils.dc43.core.geometry.representations"/>
+      <plugin id="de.iils.dc43.core.henshin"/>
+      <plugin id="de.iils.dc43.core.interfaces"/>
+      <plugin id="de.iils.dc43.core.logger"/>
+      <plugin id="de.iils.dc43.core.spg"/>
+      <plugin id="de.iils.dc43.core.standalone"/>
+      <plugin id="de.iils.dc43.core.te"/>
+      <plugin id="de.iils.dc43.core.types"/>
+      <plugin id="de.iils.dc43.jt"/>
+      <plugin id="de.iils.dc43.libraryloader"/>
+      <plugin id="de.iils.dc43.supportLibs"/>
+      <plugin id="de.iils.dc43.supportLibs.win32.win32.x86_64" fragment="true"/>
+      <plugin id="javax.annotation"/>
+      <plugin id="javax.inject"/>
+      <plugin id="javax.servlet"/>
+      <plugin id="javax.vecmath"/>
+      <plugin id="javax.xml"/>
+      <plugin id="lpg.runtime.java"/>
+      <plugin id="org.antlr.runtime"/>
+      <plugin id="org.apache.ant"/>
+      <plugin id="org.apache.commons.cli"/>
+      <plugin id="org.apache.commons.commons-collections4"/>
+      <plugin id="org.apache.commons.compress"/>
+      <plugin id="org.apache.commons.io"/>
+      <plugin id="org.apache.commons.lang3"/>
+      <plugin id="org.apache.commons.logging"/>
+      <plugin id="org.apache.commons.math3"/>
+      <plugin id="org.apache.felix.gogo.runtime"/>
+      <plugin id="org.apache.felix.scr"/>
+      <plugin id="org.apache.log4j"/>
+      <plugin id="org.apache.xml.resolver"/>
+      <plugin id="org.apiguardian"/>
+      <plugin id="org.eclipse.ant.core"/>
+      <plugin id="org.eclipse.compare.core"/>
+      <plugin id="org.eclipse.core.commands"/>
+      <plugin id="org.eclipse.core.contenttype"/>
+      <plugin id="org.eclipse.core.databinding"/>
+      <plugin id="org.eclipse.core.databinding.observable"/>
+      <plugin id="org.eclipse.core.databinding.property"/>
+      <plugin id="org.eclipse.core.expressions"/>
+      <plugin id="org.eclipse.core.filebuffers"/>
+      <plugin id="org.eclipse.core.filesystem"/>
+      <plugin id="org.eclipse.core.filesystem.win32.x86_64" fragment="true"/>
+      <plugin id="org.eclipse.core.jobs"/>
+      <plugin id="org.eclipse.core.resources"/>
+      <plugin id="org.eclipse.core.resources.win32.x86_64" fragment="true"/>
+      <plugin id="org.eclipse.core.runtime"/>
+      <plugin id="org.eclipse.core.variables"/>
+      <plugin id="org.eclipse.debug.core"/>
+      <plugin id="org.eclipse.emf.codegen"/>
+      <plugin id="org.eclipse.emf.codegen.ecore"/>
+      <plugin id="org.eclipse.emf.common"/>
+      <plugin id="org.eclipse.emf.ecore"/>
+      <plugin id="org.eclipse.emf.ecore.change"/>
+      <plugin id="org.eclipse.emf.ecore.xmi"/>
+      <plugin id="org.eclipse.emf.edit"/>
+      <plugin id="org.eclipse.emf.henshin.interpreter"/>
+      <plugin id="org.eclipse.emf.henshin.model"/>
+      <plugin id="org.eclipse.emf.mapping.ecore2xml"/>
+      <plugin id="org.eclipse.emf.mwe.core"/>
+      <plugin id="org.eclipse.emf.mwe.utils"/>
+      <plugin id="org.eclipse.emf.mwe2.lib"/>
+      <plugin id="org.eclipse.emf.mwe2.runtime"/>
+      <plugin id="org.eclipse.emf.query"/>
+      <plugin id="org.eclipse.equinox.app"/>
+      <plugin id="org.eclipse.equinox.bidi"/>
+      <plugin id="org.eclipse.equinox.common"/>
+      <plugin id="org.eclipse.equinox.ds"/>
+      <plugin id="org.eclipse.equinox.event"/>
+      <plugin id="org.eclipse.equinox.frameworkadmin"/>
+      <plugin id="org.eclipse.equinox.frameworkadmin.equinox"/>
+      <plugin id="org.eclipse.equinox.p2.artifact.repository"/>
+      <plugin id="org.eclipse.equinox.p2.core"/>
+      <plugin id="org.eclipse.equinox.p2.director"/>
+      <plugin id="org.eclipse.equinox.p2.director.app"/>
+      <plugin id="org.eclipse.equinox.p2.engine"/>
+      <plugin id="org.eclipse.equinox.p2.garbagecollector"/>
+      <plugin id="org.eclipse.equinox.p2.jarprocessor"/>
+      <plugin id="org.eclipse.equinox.p2.metadata"/>
+      <plugin id="org.eclipse.equinox.p2.metadata.repository"/>
+      <plugin id="org.eclipse.equinox.p2.publisher"/>
+      <plugin id="org.eclipse.equinox.p2.publisher.eclipse"/>
+      <plugin id="org.eclipse.equinox.p2.repository"/>
+      <plugin id="org.eclipse.equinox.p2.repository.tools"/>
+      <plugin id="org.eclipse.equinox.p2.touchpoint.eclipse"/>
+      <plugin id="org.eclipse.equinox.p2.updatesite"/>
+      <plugin id="org.eclipse.equinox.preferences"/>
+      <plugin id="org.eclipse.equinox.registry"/>
+      <plugin id="org.eclipse.equinox.security"/>
+      <plugin id="org.eclipse.equinox.security.win32.x86_64" fragment="true"/>
+      <plugin id="org.eclipse.equinox.simpleconfigurator"/>
+      <plugin id="org.eclipse.equinox.simpleconfigurator.manipulator"/>
+      <plugin id="org.eclipse.jdt.annotation"/>
+      <plugin id="org.eclipse.jdt.compiler.apt" fragment="true"/>
+      <plugin id="org.eclipse.jdt.compiler.tool" fragment="true"/>
+      <plugin id="org.eclipse.jdt.core"/>
+      <plugin id="org.eclipse.jdt.debug"/>
+      <plugin id="org.eclipse.jdt.launching"/>
+      <plugin id="org.eclipse.jface"/>
+      <plugin id="org.eclipse.jface.databinding"/>
+      <plugin id="org.eclipse.ocl"/>
+      <plugin id="org.eclipse.ocl.common"/>
+      <plugin id="org.eclipse.ocl.pivot"/>
+      <plugin id="org.eclipse.osgi"/>
+      <plugin id="org.eclipse.osgi.compatibility.state" fragment="true"/>
+      <plugin id="org.eclipse.osgi.services"/>
+      <plugin id="org.eclipse.osgi.util"/>
+      <plugin id="org.eclipse.pde.build"/>
+      <plugin id="org.eclipse.pde.core"/>
+      <plugin id="org.eclipse.swt"/>
+      <plugin id="org.eclipse.swt.win32.win32.x86_64" fragment="true"/>
+      <plugin id="org.eclipse.team.core"/>
+      <plugin id="org.eclipse.text"/>
+      <plugin id="org.eclipse.uml2.common"/>
+      <plugin id="org.eclipse.uml2.types"/>
+      <plugin id="org.eclipse.uml2.uml"/>
+      <plugin id="org.eclipse.update.configurator"/>
+      <plugin id="org.eclipse.xtend"/>
+      <plugin id="org.eclipse.xtend.lib"/>
+      <plugin id="org.eclipse.xtend.lib.macro"/>
+      <plugin id="org.eclipse.xtend.typesystem.emf"/>
+      <plugin id="org.eclipse.xtext"/>
+      <plugin id="org.eclipse.xtext.common.types"/>
+      <plugin id="org.eclipse.xtext.logging" fragment="true"/>
+      <plugin id="org.eclipse.xtext.util"/>
+      <plugin id="org.eclipse.xtext.xbase"/>
+      <plugin id="org.eclipse.xtext.xbase.lib"/>
+      <plugin id="org.hamcrest.all"/>
+      <plugin id="org.jgrapht.core"/>
+      <plugin id="org.jheaps"/>
+      <plugin id="org.jogamp"/>
+      <plugin id="org.jogamp.win32.win32.x86_64" fragment="true"/>
+      <plugin id="org.junit"/>
+      <plugin id="org.junit.platform.commons"/>
+      <plugin id="org.junit.platform.engine"/>
+      <plugin id="org.junit.platform.launcher"/>
+      <plugin id="org.objectweb.asm"/>
+      <plugin id="org.opencascade"/>
+      <plugin id="org.opencascade.win32.win32.x86_64" fragment="true"/>
+      <plugin id="org.opentest4j"/>
+      <plugin id="org.sat4j.core"/>
+      <plugin id="org.sat4j.pb"/>
+      <plugin id="org.tukaani.xz"/>
+      <plugin id="org.vtk"/>
+      <plugin id="org.vtk.win32.win32.x86_64" fragment="true"/>
+      <plugin id="wing_44"/>
+   </plugins>
+
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
+
+</product>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+<extension
+      point="org.eclipse.emf.ecore.generated_package">
+   <package
+         class="wing_44.impl.Wing_44PackageImpl"
+         uri="http://iils.de/dc43/wing_44">
+   </package>
+</extension>
+</plugin>

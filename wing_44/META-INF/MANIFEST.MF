@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: wing_44;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: DC43
+Export-Package: wing_44,
+ wing_44.impl
+Require-Bundle: de.iils.dc43.core.dependencies,
+ de.iils.dc43.core.geometry.legacy;visibility:=reexport,
+ de.iils.dc43.core.standalone
+Import-Package: de.iils.dc43.core.geometry.publication,
+ javax.annotation
+Bundle-DC43: true
+Automatic-Module-Name: wing_44
