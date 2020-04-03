@@ -1918,6 +1918,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_itP2QW-CEeqvEMXjsuJKIA"/>
         </ownedAttribute>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_y0SOUHXwEeqJL7D70vjCuA" name="Test2"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_himF8RqcEeqXpYtRmoGxzw" name="Rules">
       <packagedElement xmi:type="uml:Package" xmi:id="_OXV_wBqhEeqcka2QMc6_3A" name="Axiom">
