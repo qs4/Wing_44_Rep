@@ -13,6 +13,7 @@ public class Profil__add extends JavaRule {
 	public void execute() throws Exception {
 		for (Profilebene profilebene : getGraph().allInstances(Profilebene.class)) {
 
+			
 			Profil profil = Profil.create();
 			profilebene.setProfil(profil);
 			profil.setProfilebene(profilebene);
